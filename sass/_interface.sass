@@ -1,0 +1,28 @@
+body
+    +CirceRegular 
+.btn
+    display: inline-flex
+    border: none
+    border-radius: 10px
+    background: linear-gradient(27deg, #14bc82, #bfdf2c)
+    text-align: center
+    text-decoration: none
+    color: $header-text
+    +CirceExtraBold
+    font-size: 20px
+    &:hover
+        cursor: pointer
+        opacity: 90%
+    
+.title
+    color: #242424
+    font-size: 40px
+    text-transform: uppercase
+    +CirceExtraBold
+    text-align: center
+    padding-top: 60px 
+
+@media  ( max-width: 426px )
+    .title
+        max-width: 300px
+        font-size: 30px       

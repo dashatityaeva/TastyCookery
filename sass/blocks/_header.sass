@@ -1,0 +1,87 @@
+.header
+    background: #ffffff url('../img/hero-bg.png') no-repeat 
+    background-size: cover
+    color: $header-text
+    &__logo
+        padding-top: 60px
+        padding-bottom: 90px
+    &__title
+        width: 600px
+        text-transform: uppercase
+        +CirceExtraBold
+        font-size: 54px
+        line-height: 1.2em
+        margin-bottom: 30px
+    &__subtitle 
+        font-size: 24px
+        line-height: 1em 
+        margin-bottom: 40px
+        +CirceLight
+    &__btn
+        padding: 25px 69px
+        margin-bottom: 115px 
+        text-transform: uppercase
+        box-shadow: 10px -10px 50px rgba(182, 43, 43, 1)        
+.logo
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    margin-left: 45px
+    text-decoration: none
+    position: relative
+    height: 50px
+    &:after
+        content: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAxCAYAAABQxxDJAAADFUlEQVRYhc2ZXYhNURTHf/v6SDmF0TygmOzigUgyc18YCYUoDx59DCalkI8iH4l4kSJ5IYXkWakpRePrwUeaJCmxw2AwI5HtY2rG0WafadyOc/c+98y99/94z9pr/85eZ62z7jqCFApVUAM0AcuA6cAIoBt4BlwFzgipn/h69oYJVdAMHLEA14AFcWbAaWC7kPpb5jChCoztSWAdcBhYD4wFBicsewTMF1J3ueyRc4UB9gOrgVXAEmB8ERCjaUBLqIIhmcGEKpgJ7DPHDhwEGpzw/2oWsMvFMPbObEgMQCMwBlgMPAUmAZM9QCLtDFVgnrG3wC2gTUgdFhr988yEKhgErAQO2DAoYBRQkwIgSS/tHheE1L2RXV+YQhXUAq0mLYErwArgPPA9YxCjOuCs2c/u+0fCgowEbgOjgc32IV06ABBxegzMFlJ/jk7mFDDOgpj0LReI0VS7PyJUQR64Y+uGyZgJZQTpr7w5mQ02RFMqCGLUZGDmAReB5gqCGC0yYTL5/s7Wk4rKnExPNYAAvTl7KtWgjpwtdNWg1pythNWgczkh9U3gcoVhWoTUN6IK3GRfipWQ2XcN0YtSSP0JmAM8LDNMGzBXSP2R/m9tIXUHUA/sBpzaxBLUZffJC6nf9DHE+QtVMNT0rsBCYEuGEOafw3GTOULqn4UXExvyUAXDgB8ZwqwVUv83exN7YEvfmSFMe9JFl4b8VXYsyb5cYBLvxlOvqwXmg5C6u1SYrMJU1E85T6aqYIr6KWeYSoex7w3nsUaCXpQMY3W9RBBTPO8VMyo20oi0CRgOzEgxYDIVfI+QOstKPvDymVztBXakIDoqpD7kYugaJqO8neP5Ku9q7wOz0U43fdb0+PTXzjM9IXV7inai065z28PVMFRBvUt6xqhBSH3fxdDnyM0dPgdqHWwjdWXcgpRPXgUsVMFWO91yWWemGyeE1Mdc/fuECTuCrfO0HzCYbcByxyz8BVzycZ7qq0qkUAWNdk4c6b2Q+m5af6lh7Aj/QcyliULqou1CnHw+ZBTK9DlfCn40RfFrKm/Ab1dew8343FC1AAAAAElFTkSuQmCC")
+        position: absolute
+        left: -45px
+    &__title
+        +PFHandbookProMedium 
+        font-size: 29px
+        color: $header-text
+        line-height: 1em
+    &__subtitle
+        text-transform: uppercase
+        font-size: 11px
+        color: #d4d4d4
+        letter-spacing: 4px
+
+@media  ( max-width: 1100px )
+    .header
+        background: #ffffff url('../img/hero-bg.png') no-repeat 
+        background-size: cover
+        background-position: 40% 0%
+@media  ( max-width: 999px )
+    .header
+        background: #ffffff url('../img/hero-bg.png') no-repeat 
+        background-size: cover
+        background-position: 30% 0%
+@media  ( max-width: 820px )
+    .header
+        background: #ffffff url('../img/hero-bg.png') no-repeat 
+        background-size: cover
+        background-position: 50% 0%
+
+@media  ( max-width: 426px )
+    .header
+        background: #ffffff url('../img/hero-bg-mob.png') no-repeat 
+        background-size: cover 
+        padding-bottom: 55px      
+        &__logo
+            padding-top: 20px
+            padding-bottom: 30px
+        &__title
+            max-width: 300px
+            font-size: 30px
+            text-align: center 
+            margin-top: 0
+            margin-bottom: 25px
+        &__subtitle
+            font-size: 20px 
+            text-align: center
+            margin-bottom: 260px
+        &__btn
+            display: flex
+            margin-bottom: 50px
+           
+        
+            

@@ -58,9 +58,15 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 619px) {
   .container {
-    max-width: 330px;
+    max-width: 426px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 320px;
   }
 }
 
@@ -96,10 +102,11 @@ body {
   padding-top: 60px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 625px) {
   .title {
     max-width: 300px;
     font-size: 30px;
+    margin: 0 auto;
   }
 }
 
@@ -196,6 +203,9 @@ body {
     background-size: cover;
     background-position: 50% 0%;
   }
+  .header__title {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 426px) {
@@ -209,7 +219,6 @@ body {
     padding-bottom: 30px;
   }
   .header__title {
-    max-width: 300px;
     font-size: 30px;
     text-align: center;
     margin-top: 0;
@@ -413,7 +422,7 @@ body {
 }
 
 .get-recipe__description {
-  width: 900px;
+  max-width: 900px;
   text-align: center;
   color: #ffffff;
   font-size: 26px;
@@ -431,7 +440,6 @@ body {
 
 @media (max-width: 768px) {
   .get-recipe__description {
-    width: 620px;
     font-size: 18px;
   }
   .get-recipe__btn {
@@ -628,6 +636,12 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .reviews__group {
+    width: 300px;
+  }
+}
+
 .footer {
   background: #ffffff url("../img/footer-bg.png") no-repeat;
   background-size: cover;
@@ -729,12 +743,12 @@ input[data-rule].invalid {
     padding-bottom: 60px;
   }
   .text {
-    padding: 0;
+    padding: 15px;
     padding-bottom: 25px;
     font-size: 20px;
   }
   .form {
-    max-width: 330px;
+    max-width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
